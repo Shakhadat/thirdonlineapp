@@ -1,38 +1,77 @@
-.App {
+.nav-link{
+  color:black !important;
+  margin-left: 1rem;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+.title{
+  font-size: 55px;
+  font-weight: 100;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleText{
+  text-align: center;
+  font-size: 24px;
+  /* padding: 1rem 0; */
+  font-weight: 100;
+  /* background-color: red; */
+  width: 810px;
+  margin: 2rem auto;
+  
+}
+.greytitle{
+  color:grey;
+}
+.card-header{
+  font-size: 25px;
+}
+.card-title{
+  font-size: 40px;
+  font-weight: 400 !important;
+}
+.card-text{
+  font-size: 16px;
+  /* width: 130px; */
+  margin: 1rem auto;
+}
+.card{
+  width: 280px;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardcollect{
+  width: 70%;
+  margin: 2rem auto;
+  
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body{
+  padding: 2rem;
 }
-
-.App-link {
-  color: #61dafb;
+.logo{
+  width: 30px;
+  height: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copy{
+  color: grey;
+  margin: 1rem 0;
+  font-size: 14px;
+}
+.footlist{
+  list-style-type: none;
+}
+.footlist li>a{
+  text-decoration: none;
+  color: grey;
+}
+.footlist li>a:hover{
+  text-decoration: underline;
+}
+.footer{
+  width: 70%;
+  /* background-color: red; */
+  margin: 0 auto;
+  padding-top: 2rem;
+  border-top: 1px solid #ccc;
 }
